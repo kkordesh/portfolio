@@ -145,7 +145,8 @@ form {
 }
 
 #gh {
-    margin-left: 47% ;
+    margin-left: 43% ;
+    margin-right: 2%;
 
     border-radius: 50%;
 
@@ -157,12 +158,17 @@ form {
 }
 
 #projectcontainer {
-    display: grid;
-    flex-wrap: wrap;
-    justify-content: space-evenly
+  
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
     
 }
 
 .card {
     margin-top: 5%;
 }
+
